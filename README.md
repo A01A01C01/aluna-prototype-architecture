@@ -2,9 +2,9 @@
 
 A sophisticated AI system visualization platform showcasing the complete architecture of the ALUNA AI implementation. This dashboard provides an intuitive interface for exploring the three-layer architecture: Input Layer, Core Processing, and Output Layer.
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-Visit the live application: [https://a01a01c01.github.io/aluna-prototype-architecture](https://a01a01c01.github.io/aluna-prototype-architecture)
+Visit the live application: https://a01a01c01.github.io/aluna-prototype-architecture
 
 ## 🏗️ Architecture Overview
 
@@ -48,29 +48,33 @@ The dashboard is fully responsive and optimized for:
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn package manager
 
 ### Development Setup
 
 1. **Clone the repository**
-   
+   ```bash
    git clone https://github.com/a01a01c01/aluna-prototype-architecture.git
    cd aluna-prototype-architecture
+   ```
 
 2. **Install dependencies**
-   
+   ```bash
    npm install
+   ```
 
 3. **Start development server**
-   
+   ```bash
    npm run dev
+   ```
 
 4. **Build for production**
-   
+   ```bash
    npm run build:gh-pages
+   ```
 
-   ## 📦 Build and Deployment
+## 📦 Build and Deployment
 
 ### GitHub Pages Deployment
 
@@ -82,13 +86,13 @@ The project is configured for automatic deployment to GitHub Pages:
 
 ### Manual Deployment
 
-```# Build the project
+```bash
 npm run build:gh-pages
+```
 
-# The dist/ folder contains the production files
-# Deploy the contents to your hosting provider ```
+The `dist/` folder contains the production files. Deploy the contents to your hosting provider.
 
-## 🔧 Configuration
+## ⚙️ Configuration
 
 ### Environment Variables
 
@@ -97,6 +101,7 @@ Create a `.env` file for local development:
 ```env
 VITE_APP_TITLE=ALUNA Architecture Dashboard
 VITE_APP_VERSION=1.0.0
+```
 
 ### GitHub Pages Setup
 
@@ -108,7 +113,7 @@ VITE_APP_VERSION=1.0.0
 
 ## 📁 Project Structure
 
-` ` `
+```
 aluna-prototype-architecture/
 ├── client/                 # Frontend application
 │   ├── src/
@@ -121,8 +126,7 @@ aluna-prototype-architecture/
 ├── attached_assets/        # Design assets
 ├── dist/                   # Build output (auto-generated)
 └── vite.config.gh-pages.ts # Build configuration
-
-` ` `
+```
 
 ## 🎨 Design System
 
@@ -134,7 +138,7 @@ The dashboard uses a sophisticated design system featuring:
 - **Sci-Fi Aesthetic** - Futuristic AI interface design
 - **Smooth Animations** - Framer Motion powered interactions
 
-## 🔍 Features
+## ✨ Features
 
 ### System Status Monitoring
 - Real-time status indicators
@@ -151,7 +155,7 @@ The dashboard uses a sophisticated design system featuring:
 - Touch-optimized mobile interface
 - Keyboard navigation support
 
-## 📈 Performance
+## ⚡ Performance
 
 - **Fast Loading** - Optimized bundle splitting
 - **Smooth Animations** - Hardware-accelerated CSS
@@ -168,24 +172,26 @@ The dashboard uses a sophisticated design system featuring:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🏢 Commercial Use
 
 This project is designed for future startup ventures. The MIT license allows for:
+
 - Commercial use and modification
 - Private use and distribution
 - Patent use rights
 - Sublicensing capabilities
 
-For enterprise licensing options, see [COMMERCIAL_LICENSE_OPTIONS.md](COMMERCIAL_LICENSE_OPTIONS.md).
+For enterprise licensing options, see COMMERCIAL_LICENSE_OPTIONS.md.
 
 ## 📞 Support
 
 For technical support or questions:
+
 - Create an issue in the GitHub repository
-- Review the [Technical Report](TECHNICAL_REPORT.md) for implementation details
-- Check the [Deployment Guide](DEPLOYMENT_GUIDE.md) for setup instructions
+- Review the Technical Report for implementation details
+- Check the Deployment Guide for setup instructions
 
 ---
 
