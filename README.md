@@ -195,4 +195,4 @@ For technical support or questions:
 
 ---
 
-**Built with ❤️ for the future of AI architecture visualization**
+**Built with ❤️ for the future of TechBio and human healthcare **
