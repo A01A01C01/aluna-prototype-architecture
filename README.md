@@ -195,4 +195,4 @@ For technical support or questions:
 
 ---
 
-**Built with ❤️ for the future of TechBio and human healthcare **
+**Built with ❤️ from Amin CHEIKHI's KairosShift Labs for the future of TechBio , Healthcare and Human Well-Being **
