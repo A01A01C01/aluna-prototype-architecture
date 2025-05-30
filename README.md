@@ -195,4 +195,4 @@ Für technischen Support oder Fragen:
 
 ---
 
-**Mit ❤️ von Amin CHEIKHIs KairosShift Labs für die Zukunft von TechBio 🧬, Healthcare 🏥 und menschlichem Wohlbefinden 🌟 erstellt**
+**Mit ❤️ von Aluna-KairosShift KI Labs für die Zukunft von menschlichem Wohlbefinden 🌟 erstellt**
