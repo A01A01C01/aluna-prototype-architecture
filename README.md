@@ -1,128 +1,59 @@
 # ALUNA Implementation Architecture Dashboard
 
-A cutting-edge web-based AI architecture dashboard that provides an immersive, multilingual exploration of machine learning system structures with advanced visualization capabilities.
-
-## 🌟 Features
-
-- **Interactive Architecture Visualization**: Three-column layout showcasing Input Layer, Core Processing, and Output Layer
-- **Responsive Design**: Optimized for desktop, laptop, and mobile viewing
-- **Multilingual Support**: English, German, French, Spanish, Japanese, and Arabic
-- **Real-time System Metrics**: Performance indicators and status monitoring
-- **Futuristic UI/UX**: Sci-fi inspired design with animated gradients and neural network visualizations
-- **Human-AI Interface**: Visual representation of human cognition enhanced by AI systems
+A sophisticated AI system visualization platform showcasing the complete architecture of the ALUNA AI implementation. This dashboard provides an intuitive interface for exploring the three-layer architecture: Input Layer, Core Processing, and Output Layer.
 
 ## 🚀 Live Demo
 
-Visit the live dashboard: [https://aluna-architecture.github.io](https://aluna-architecture.github.io)
+Visit the live application: [https://a01a01c01.github.io/aluna-prototype-architecture](https://a01a01c01.github.io/aluna-prototype-architecture)
 
 ## 🏗️ Architecture Overview
 
-### Input Layer (Eingabeschicht)
-- **Natural Language Processing**: Tokenization, POS tagging, entity recognition
-- **Emotional Signal Processing**: Sentiment analysis, emotion detection, stress indicators
-- **Audio Processing**: Speech recognition, voice analysis, acoustic feature extraction
-- **Context Analysis**: Temporal context, situational awareness, relationship mapping
+The ALUNA system consists of three main architectural layers:
+
+### Input Layer (Eingabeebene)
+- Natural Language Processing
+- Context Detection
+- User Interface Components
+- Data Validation Systems
 
 ### Core Processing (Kernverarbeitung)
-- **Machine Learning Engines**: Pattern recognition, predictive modeling, decision trees
-- **Knowledge Graph**: Semantic relationships, concept mapping, inference rules
-- **Analysis Engines**: Systemic analysis, circular questioning, solution focus
-- **Question Generation**: Dynamic questioning, relevance scoring, category classification
+- Machine Learning Engines
+- Pattern Recognition
+- Emotional Analysis
+- Decision Making Algorithms
 
-### Output Layer (Ausgabeschicht)
-- **Response Generation**: Natural language synthesis, tone adaptation, cultural sensitivity
-- **Visualization**: Interactive dashboards, progress tracking, relationship mapping
-- **Intervention Recommendations**: Personalized suggestions, effectiveness scoring
-- **Feedback Systems**: Real-time adaptation, learning from interactions
+### Output Layer (Ausgabeebene)
+- Response Generation
+- Intervention Strategies
+- System Monitoring
+- Feedback Integration
 
-## 🛠️ Technology Stack
+## 🛠️ Technical Stack
 
-- **Frontend**: React 18 with TypeScript
-- **Build Tool**: Vite
+- **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS with custom design system
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+- **Animations**: Framer Motion for smooth interactions
+- **Icons**: Lucide React for consistent iconography
+- **Build Tool**: Vite for fast development and optimized builds
 - **Deployment**: GitHub Pages with automated CI/CD
 
 ## 📱 Responsive Design
 
 The dashboard is fully responsive and optimized for:
-- **Desktop**: Full three-column layout with all features visible
-- **Laptop**: Adaptive two-column layout for medium screens
-- **Mobile**: Single-column stack with touch-friendly interactions
-- **Tablet**: Optimized spacing and component sizing
-
-## 🎨 Design Philosophy
-
-The ALUNA dashboard embodies a futuristic aesthetic that represents the synthesis of human intelligence and artificial neural networks:
-
-- **Color Palette**: Navy blues with cyan, purple, and pink accents
-- **Typography**: Modern, tech-inspired fonts with gradient effects
-- **Animations**: Subtle pulsing and gradient shifts to indicate system activity
-- **Visual Metaphors**: Brain-chip interfaces representing human-AI collaboration
-
-## 🌐 Multilingual Support
-
-The interface supports six languages with appropriate flag indicators:
-- 🇺🇸 English (EN)
-- 🇩🇪 German (DE) 
-- 🇫🇷 French (FR)
-- 🇪🇸 Spanish (ES)
-- 🇯🇵 Japanese (JP)
-- 🇸🇦 Arabic (AR)
+- Desktop computers (1920px+)
+- Laptops (1024px - 1919px)
+- Tablets (768px - 1023px)
+- Mobile phones (320px - 767px)
 
 ## 🚀 Quick Start
 
-### Local Development
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn package manager
 
-1. Clone the repository:
+### Development Setup
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/aluna-architecture.git
-   cd aluna-architecture
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
-
-### Building for Production
-
-```bash
-npm run build:gh-pages
-```
-
-The built files will be in the `dist` directory, ready for deployment.
-
-## 📋 System Requirements
-
-- **Node.js**: 18.x or higher
-- **npm**: 8.x or higher
-- **Modern Browser**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
-
-## 🤝 Contributing
-
-We welcome contributions to improve the ALUNA dashboard. Please read our contributing guidelines and submit pull requests for any enhancements.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Commercial Use**: This software is designed for commercial applications and startup ventures. The MIT License permits unrestricted commercial use, modification, and distribution. For enterprise licensing, custom development, or partnership opportunities, please contact the development team.
-
-## 🙏 Acknowledgments
-
-- Built with modern web technologies and best practices
-- Inspired by advanced AI system architectures
-- Designed for systemic coaching and therapeutic applications
-
----
-
-**ALUNA** - Advancing human-AI collaboration through intelligent system design
+   git clone https://github.com/a01a01c01/aluna-prototype-architecture.git
+   cd aluna-prototype-architecture
