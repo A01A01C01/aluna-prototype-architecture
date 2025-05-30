@@ -2,12 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
-// GitHub Pages deployment configuration
 export default defineConfig({
   plugins: [react()],
-  base: './', // Use relative paths for GitHub Pages
+  root: './client',
+  base: './',
   build: {
-    outDir: 'dist',
+    outDir: '../dist',
     assetsDir: 'assets',
     sourcemap: false,
     rollupOptions: {
