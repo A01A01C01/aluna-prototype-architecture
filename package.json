@@ -41,12 +41,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "repository": {
-  "type": "git",
-  "url": "https://github.com/a01a01c01/aluna-prototype-architecture.git"
-},
-"bugs": {
-  "url": "https://github.com/a01a01c01/aluna-prototype-architecture/issues"
-},
-"homepage": "https://a01a01c01.github.io/aluna-prototype-architecture"
+    "url": "https://github.com/a01a01c01/aluna-prototype-architecture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a01a01c01/aluna-prototype-architecture/issues"
+  },
+  "homepage": "https://a01a01c01.github.io/aluna-prototype-architecture"
 }
