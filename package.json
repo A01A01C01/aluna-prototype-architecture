@@ -4,10 +4,10 @@
   "description": "ALUNA Implementation Architecture - AI System Visualization Dashboard",
   "type": "module",
   "scripts": {
-    "dev": "vite --config vite.config.gh-pages.ts",
-    "build": "vite build --config vite.config.gh-pages.ts",
-    "preview": "vite preview --config vite.config.gh-pages.ts",
-    "build:gh-pages": "npm run build && echo 'aluna-architecture.github.io' > dist/CNAME"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:gh-pages": "npm run build && echo 'a01a01c01.github.io/aluna-prototype-architecture' > dist/CNAME"
   },
   "dependencies": {
     "react": "^18.3.1",
