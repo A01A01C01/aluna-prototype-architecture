@@ -1,36 +1,33 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
-  root: './client',
-  base: '/aluna-prototype-architecture/',
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "client/src"),
+      "@assets": path.resolve(__dirname, "attached_assets"),
+    },
+  },
+  root: path.resolve(__dirname, "client"),
+  base: "/aluna-prototype-architecture/",
   build: {
-    outDir: '../dist',
-    assetsDir: 'assets',
+    outDir: path.resolve(__dirname, "dist"),
+    emptyOutDir: true,
+    assetsDir: "assets",
     sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          ui: ['framer-motion', 'lucide-react']
+          animations: ['framer-motion'],
+          icons: ['lucide-react']
         }
       }
     }
   },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './client/src'),
-      '@assets': path.resolve(__dirname, './attached_assets')
-    }
-  },
-  server: {
-    port: 5173,
-    host: true
-  },
-  preview: {
-    port: 4173,
-    host: true
-  }
-})
+});
