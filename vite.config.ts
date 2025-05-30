@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: './client',
-  base: './',
+  base: '/aluna-prototype-architecture/',
   build: {
     outDir: '../dist',
     assetsDir: 'assets',
