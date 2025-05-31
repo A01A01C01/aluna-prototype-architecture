@@ -7,7 +7,7 @@ import Dashboard from "@/pages/dashboard";
 import NotFound from "@/pages/not-found";
 
 // GitHub Pages base path handling
-const basePath = import.meta.env.PROD ? '/aluna-ki-architecture' : '';
+const basePath = import.meta.env.BASE_URL || '';
 
 function Router() {
   return (
